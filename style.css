@@ -1,0 +1,79 @@
+body{
+    margin-bottom: 50px;
+}
+#navbarName{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainContainer{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+#appName{
+    font-family: 'Fira Sans', sans-serif ;
+    font-size: 2.5em;
+}
+
+.myInput{
+    width: 40%;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+#chatSec{
+    margin-top: 100px;
+}
+.chatContainer{
+    width: 70%;
+}
+
+.chatP{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25em;
+}
+
+#msgArea{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.msgDiv{
+    width: 100%;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.msgBody {
+    width: 100%;
+}
+
+.msgContent {
+    width: 60%;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .chatP{
+        font-size: .9em;
+    }
+
+    .msgContent {
+        font-size: .9em;
+    }
+
+    #msgArea{
+        font-size: 0.9em;
+        font-weight: bold;
+        font-family: monospace;
+    }
+    #sendMsg, #logout{
+        font-size: 0.9em;
+    }
+}
